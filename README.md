@@ -21,7 +21,7 @@ Exemplos de utilização
 
 require_once __DIR__ . '/../FileDuck.php';
 
-//Sobrescrevendo do arquivo config.php em tempo de execução
+//Sobrescrevendo arquivo config.php em tempo de execução
 $config = array();
 $config['provider'] = 'array';
 $config['lang'] = isset($_GET['lang'])  ? $_GET['lang'] : 'pt_BR'; // Definindo linguagem via QueryString
@@ -32,7 +32,7 @@ $fileDuck->add( __DIR__ .'/js/example.js' );
 $fileDuck->add( __DIR__ .'/js/example2.js' );
 
 //( text/javascript | text/css  | text/plain | etc..)
-$fileDuck->renderFile( 'text/javascript' ); //Renderizando o a saida com MimeType text/javascript.
+$fileDuck->renderFile( 'text/javascript' ); //Renderizando a saida com MimeType text/javascript.
 
 ```
 **Internacionalização**

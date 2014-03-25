@@ -135,11 +135,8 @@ class FileDuck
                 require_once( $this->fileTranslated );
                 $data = ob_get_clean();
                 file_put_contents( $compiledFile , $data );
-
             }
-
             $this->debug( '    Render file: ' .$compiledFile);
-
         } else {
             $this->_process();
             ob_start();
