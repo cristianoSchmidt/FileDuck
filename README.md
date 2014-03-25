@@ -1,7 +1,7 @@
 FileDuck
 =========
 
-FileDuck é um framework PHP para compilação e gerenciamento de arquivos.
+FileDuck é uma biblioteca PHP para compilação e gerenciamento de arquivos.
 
 Funcionalidades:
 
